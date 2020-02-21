@@ -31,7 +31,7 @@ variables:
 
 - task: AzureWebApp@1 # Add this at the end of your file
   inputs:
-    azureSubscription: <Azure service connection>
+    azureSubscription: 685ba005-af8d-4b04-8f16-a7bf38b2eb5a
     appType: webAppLinux
     appName: $(appName)
     package: $(System.ArtifactsDirectory)/**/*.zip
